@@ -1,4 +1,4 @@
-# learning-numpy
+# numpy
 # generating data
 import numpy as np 
 arr=np.array([1,2,3]) it can gernerate a 1D array.
