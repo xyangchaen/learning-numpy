@@ -13,7 +13,12 @@ for vectors' inner product:np.dot()
 for the element-wise product of matrixs:np.multiply(A,B) or A*B
 for matrixs multiply:np.matmul(A,B) or A@B
 # sliceing
+sliceing can get a part of a matrix.
 arr[:1,:] is the first line of arr.
 arr[:,:1] is the first column of arr.
 the two sides of : is the position of sliceing.  
 e.g.arr[2:3,:] is the third line of arr. and their default value are 0 and len(arr) respectively. 
+# array properties
+arr.max() arr.argmax() can get the maximum value and its index of arr.
+arr.mean() can get the average value of arr.
+arr.std() arr.var()  can get the standard deviation and variance of arr.
