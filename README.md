@@ -12,6 +12,7 @@ arr=np.linspace(0,100,100) it can generate a specified size array with fixed-ste
 for vectors' inner product:np.dot()
 for the element-wise product of matrixs:np.multiply(A,B) or A*B
 for matrixs multiply:np.matmul(A,B) or A@B
+for matrixs transposition： A.T 
 # sliceing
 sliceing can get a part of a matrix.
 arr[:1,:] is the first line of arr.
