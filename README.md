@@ -13,6 +13,7 @@ for vectors' inner product:np.dot()
 for the element-wise product of matrixs:np.multiply(A,B) or A*B
 for matrixs multiply:np.matmul(A,B) or A@B
 for matrixs transposition： A.T 
+for matrix shape: A.shape[1]
 # sliceing
 sliceing can get a part of a matrix.
 arr[:1,:] is the first line of arr.
